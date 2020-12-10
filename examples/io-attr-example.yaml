@@ -4,7 +4,7 @@ metadata:
   name: io-delay-example
   namespace: chaos-testing
 spec:
-  action: latency
+  action: attrOverride
   mode: one
   selector:
     labelSelectors:
